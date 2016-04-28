@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Main Menu</title>
+		<style>
+		body{ background-color: rgb(40,40,55) }
+		p{ background-color: rgb(150,150,150); width: 60px; position: relative; left: 45%; text-align:center; padding: 5px; top:20em;}
+		
+		</style>
+	</head>
+	<body>
+			<?php session_start(); if(!$_SESSION["Authorized"]){ header("Location: login.php"); } else if($_SESSION["Authorized"] == "FALSE") { header("Location: login.php"); }?>
+
+		<p>
+			<a href="create.php">Create Page</a><br />
+			<a href="viewPage.php">View Page</a><br />
+			<a href="login.php" onclick="<?php session_start(); $_SESSION['Authorized'] = 'FALSE' ?>">Logout</a>
+		</p>
+	</body>
+</html>
