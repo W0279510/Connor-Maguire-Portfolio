@@ -1,0 +1,9 @@
+﻿  Zombie.cpp
+  Space.cpp
+  Organism.cpp
+  Necromancer.cpp
+c:\users\connor\desktop\portfolio code\yes\necromancy reanimated\necromancy reanimated\necromancer.cpp(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Human.cpp
+  City.cpp
+  Generating Code...
+  Necromancy Reanimated.vcxproj -> C:\Users\Connor\Desktop\Portfolio Code\Yes\Necromancy Reanimated\Debug\Necromancy Reanimated.exe
